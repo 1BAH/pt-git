@@ -1,2 +1,2 @@
-# pt-git
-Programming Technologies course. Slides for "git" topic
+# git
+> Programming Technologies course.
