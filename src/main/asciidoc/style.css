@@ -23,9 +23,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
-/*body {*/
-/*    background: #e3ffcc;*/
-/*    background-color: #e3ffcc; }*/
+body {
+    background: #ffffe3;
+    background-color: #ffffe3;
+}
 
 .reveal {
     font-family: "JetBrains Mono", "Source Sans Pro", Helvetica, sans-serif;
@@ -34,9 +35,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     color: #222; }
 
 ::selection {
-    /*color: #fff;*/
-    /*background: #2b5e01;*/
-    text-shadow: none; }
+    color: #fff;
+    background: #585901;
+    text-shadow: none;
+}
 
 
 .reveal .slides > section,
@@ -69,7 +71,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     font-size: 3.5em;
     margin-bottom: 10px;
     margin-top: 200px;
-    /*border-bottom: 2px dotted #abac74;*/
+    border-bottom: 2px groove #abac74;
     padding-bottom: 5px;
 
 }
@@ -77,7 +79,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h2 {
     font-size: 2.1em;
     padding-bottom: 10px;
-    /*border-bottom: 2px dotted #abac74;*/
+    border-bottom: 2px dotted #abac74;
     font-family: "JetBrains Mono";}
 
 
@@ -265,7 +267,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     display: inline-block;
     font-size: 0.8em;
     line-height: 1.2em;
-    vertical-align: top; }
+    vertical-align: top;
+    color: #fff;
+}
 
 .reveal small * {
     vertical-align: top; }
