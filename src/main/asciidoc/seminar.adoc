@@ -1,6 +1,6 @@
 = git
 Programming Technologies
-:revealjs_theme: black
+:revealjs_theme: solarized
 :revealjs_customtheme: style.css
 :revealjs_slideNumber:
 :revealjs_history:
