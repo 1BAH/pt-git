@@ -48,12 +48,12 @@ include::_doc_general_attributes.adoc[]
 
 [cols="30a,30a,30a"]
 |===
+|image:fossil.png[]
 |image::svn.png[]
 |image:mercurial.png[]
-|image:fossil.png[]
+|Fossil
 |SVN
 |Mercurial
-|Fossil
 
 
 |===
