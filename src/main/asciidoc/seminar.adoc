@@ -6,7 +6,7 @@ Programming Technologies
 :revealjs_history:
 :revealjs_progress:
 :encoding: UTF-8
-:lang: ru
+:lang: en
 include::_doc_general_attributes.adoc[]
 :doctype: article
 :toclevels: 3
@@ -26,31 +26,37 @@ include::_doc_general_attributes.adoc[]
 // == Часть 1. Введение
 :!figure-caption:
 
-
-== fst
-
-[%step]
-* fst
-* snd
-
-
-[%notitle]
-== git
+// [%notitle]
+== Basic facts
 
 [cols="30a,70a"]
 |===
 |image::git.png[]
 |
 
-icon
+[%step]
+* Version Control System (_VCS_)
+* One of developers - Linus Torvalds
+* Was created to store Linux kernel code
+* https://en.wikipedia.org/wiki/Git#History[History]
+* Free & open source software
+* Mainly C code
 
 |===
 
-== demo
+== Alternatives
 
-[%step]
-* 9090
-* lkjlj
+[cols="30a,70a"]
+|===
+|image::svn.png[]
+|SVN
+|image:mercurial.png[]
+|Mercurial
+|image:fossil.png[]
+|Fossil
+
+
+|===
 
 == That's all
 
