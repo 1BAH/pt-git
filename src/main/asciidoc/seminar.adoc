@@ -1,0 +1,59 @@
+= git
+Иван Калинин
+:revealjs_theme: black
+:revealjs_customtheme: style.css
+:revealjs_slideNumber:
+:revealjs_history:
+:revealjs_progress:
+:encoding: UTF-8
+:lang: ru
+include::_doc_general_attributes.adoc[]
+:doctype: article
+:toclevels: 3
+:imagesdir: images
+:source-highlighter: highlightjs
+:highlightjsdir: highlight
+:icons: font
+:iconfont-remote!:
+:iconfont-name: font-awesome-4.7.0/css/font-awesome
+:revealjs_mouseWheel: true
+:revealjs_center: false
+:revealjs_transition: none
+:revealjs_width: 1600
+:revealjs_height: 900
+:stem: latexmath
+
+// == Часть 1. Введение
+:!figure-caption:
+
+
+== fst
+
+[%step]
+* fst
+* snd
+
+
+[%notitle]
+== git
+
+[cols="30a,70a"]
+|===
+|image::git.png[]
+|
+
+icon
+
+|===
+
+== demo
+
+[%step]
+* 909
+* lkjlj
+
+== That's all
+
+If you have found any mistakes, contact me
+
+icon:telegram[size=lg] @taekwandodo
