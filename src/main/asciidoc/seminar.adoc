@@ -45,7 +45,7 @@ include::_doc_general_attributes.adoc[]
 |===
 
 == Alternatives
-
+[%step]
 [cols="30a,30a,30a"]
 |===
 |image:fossil.png[]
