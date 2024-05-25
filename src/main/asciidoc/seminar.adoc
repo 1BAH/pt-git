@@ -1,5 +1,5 @@
 = git
-Иван Калинин
+Programming Technologies
 :revealjs_theme: black
 :revealjs_customtheme: style.css
 :revealjs_slideNumber:
