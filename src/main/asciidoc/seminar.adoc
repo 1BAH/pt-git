@@ -11,8 +11,9 @@ include::_doc_general_attributes.adoc[]
 :doctype: article
 :toclevels: 3
 :imagesdir: images
-:source-highlighter: highlightjs
-:highlightjsdir: highlight
+:source-highlighter: highlight.js
+:highlightjs-languages: ruby, bash, java
+// :highlightjsdir: highlight
 :icons: font
 :iconfont-remote!:
 :iconfont-name: font-awesome-4.7.0/css/font-awesome
