@@ -11,7 +11,7 @@ include::_doc_general_attributes.adoc[]
 :doctype: article
 :toclevels: 3
 :imagesdir: images
-:source-highlighter: coderay
+:source-highlighter: pygments
 :icons: font
 :iconfont-remote!:
 :iconfont-name: font-awesome-4.7.0/css/font-awesome
@@ -73,13 +73,6 @@ CAUTION: Ensure that manager has ``install`` option (e.g. ``apk`` uses ``add`` i
 [source,bash]
 ----
 brew install git
-----
-
-[source,xml]
-----
-<main>
-    <hi>kuku</hi>
-</main>
 ----
 
 [source,java]
