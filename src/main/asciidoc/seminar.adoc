@@ -23,10 +23,9 @@ include::_doc_general_attributes.adoc[]
 :revealjs_height: 900
 :stem: latexmath
 
-// == Часть 1. Введение
 :!figure-caption:
 
-// [%notitle]
+
 == Basic facts
 
 [cols="30a,70a"]
@@ -54,9 +53,35 @@ include::_doc_general_attributes.adoc[]
 |Fossil
 |SVN
 |Mercurial
-
-
 |===
+
+== Install git
+
+* Linux
+
+[source,bash,linenums]
+----
+[pm] install git
+----
+
+`pm` - package manager (`apt`, `yum`, `dnf`, etc)
+
+CAUTION: Ensure that manager has `install` option (e.g. `apk` uses `add` instead of `install`)
+
+* MacOS
+
+[source,bash,linenums]
+----
+brew install git
+----
+
+* Windows
+
+https://git-scm.com/download/win[Download] installer and run it
+
+// == Inside git
+
+
 
 == That's all
 
