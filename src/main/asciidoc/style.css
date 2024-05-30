@@ -179,10 +179,10 @@ body {
     margin: 20px 0px;
     text-align: left;
     font-size: 0.75em;
-    /*font-family: monospace;*/
+    font-family: "JetBrains Mono";
     line-height: 1.2em;
     word-wrap: break-word;
-     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+     /*box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);*/
 }
 
 .reveal code {
@@ -483,4 +483,41 @@ section.title {
 
 ul.none {
     list-style: none;
+}
+
+/*****************************************
+ *           admonitions icons           *
+ *****************************************/
+
+.doc .admonitionblock .icon {
+    border-radius: 1rem;
+}
+
+i.fa[class^='icon-'],
+i.fa[class*=' icon-']::before {
+    content: "";
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.25rem;
+    margin-left: -0.5rem;
+}
+
+i.fa.icon-note::before {
+    background: no-repeat url("admonitions/note.svg");
+}
+
+i.fa.icon-tip::before {
+    background: no-repeat url("admonitions/tip.svg");
+}
+
+i.fa.icon-important::before {
+    background: no-repeat url("admonitions/important.svg");
+}
+
+i.fa.icon-warning::before {
+    background: no-repeat url("admonitions/warning.svg");
+}
+
+i.fa.icon-caution::before {
+    background: no-repeat url("admonitions/caution.svg");
 }

@@ -1,5 +1,5 @@
 :encoding: utf-8
-:caution-caption: Caution
+// :caution-caption: Caution
 :important-caption: Important
 :note-caption: Note
 :tip-caption: Tip
