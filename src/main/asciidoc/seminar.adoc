@@ -59,18 +59,19 @@ include::_doc_general_attributes.adoc[]
 
 * Linux
 
-[source,bash,linenums]
+[source,bash]
 ----
 [pm] install git
 ----
 
-`pm` - package manager (`apt`, `yum`, `dnf`, etc)
+``pm`` - package manager (``apt``, ``yum``, ``dnf``, etc)
 
-CAUTION: Ensure that manager has `install` option (e.g. `apk` uses `add` instead of `install`)
+CAUTION: Ensure that manager has ``install`` option (e.g. ``apk`` uses ``add`` instead of ``install``)
 
 * MacOS
 
-[source,bash,linenums]
+// [source,bash,linenums]
+[source,bash]
 ----
 brew install git
 ----
