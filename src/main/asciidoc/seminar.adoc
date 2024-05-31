@@ -14,7 +14,7 @@ include::_doc_general_attributes.adoc[]
 :imagesdir: images
 :source-highlighter: highlightjs
 :icons: font
-:revealjs_mouseWheel: true
+:revealjs_mouseWheel: false
 :revealjs_center: false
 :revealjs_transition: none
 :revealjs_width: 1600
@@ -55,7 +55,14 @@ include::_doc_general_attributes.adoc[]
 
 == Install git
 
+[.lead]
+Guides
+
+image::whiteRabbit.png[float=right]
+
 === Linux
+
+Execute following command:
 
 [source,bash]
 ----
@@ -68,31 +75,11 @@ CAUTION: Ensure that manager has ``install`` option (e.g. ``apk`` uses ``add`` i
 
 === MacOS
 
-// [source,bash,linenums]
+Execute following command:
+
 [source,bash]
 ----
 brew install git
-----
-
-[source,java]
-----
-class Unsound {
-  static class Constrain<A, B extends A> {}
-  static class Bind<A> {
-    <B extends A>
-    A upcast(Constrain<A,B> constrain, B b) {
-      return b;
-    }
-  }
-  static <T,U> U coerce(T t) {
-    Constrain<U,? super T> constrain = null;
-    Bind<U> bind = new Bind<U>();
-    return bind.upcast(constrain, t);
-  }
-  public static void main(String[] args) {
-    String zero = Unsound.<Integer,String>coerce(0);
-  }
-}
 ----
 
 === Windows
@@ -100,8 +87,6 @@ class Unsound {
 https://git-scm.com/download/win[Download] installer and run it
 
 // == Inside git
-
-
 
 == That's all
 
