@@ -14,6 +14,8 @@ include::_doc_general_attributes.adoc[]
 :source-highlighter: highlightjs
 :icons: font
 :iconfont-remote!:
+:iconfont-name: fontawesome-6.5.2/css/solid
+:iconfont-name: fontawesome-6.5.2/css/brands
 :iconfont-name: fontawesome-6.5.2/css/fontawesome
 :revealjs_mouseWheel: true
 :revealjs_center: false
