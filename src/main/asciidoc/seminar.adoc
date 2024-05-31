@@ -1,6 +1,6 @@
 = git
 Programming Technologies
-:revealjs_theme: white
+:revealjs_theme: black
 :revealjs_customtheme: style.css
 :revealjs_slideNumber:
 :revealjs_history:
@@ -14,7 +14,7 @@ include::_doc_general_attributes.adoc[]
 :source-highlighter: highlightjs
 :icons: font
 :iconfont-remote!:
-:iconfont-name: font-awesome-4.7.0/css/font-awesome
+:iconfont-name: fontawesome-6.5.2/css/fontawesome
 :revealjs_mouseWheel: true
 :revealjs_center: false
 :revealjs_transition: none
