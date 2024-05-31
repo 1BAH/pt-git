@@ -322,7 +322,7 @@ body {
     background: no-repeat url("admonitions/caution.svg");
 }
 
-.reveal .admonitionblock td.icon i.fa.fa-fire:before {
+.reveal .admonitionblock td.icon i.fa.fa-fire::before {
     background: no-repeat url("admonitions/caution.svg");
 }
 
